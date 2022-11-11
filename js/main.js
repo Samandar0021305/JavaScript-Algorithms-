@@ -44,3 +44,51 @@
 
 
 
+// function faktarial(n){
+//     let result = 1
+    
+// }
+
+
+
+// function daraja(x){
+//     var k=0
+//   for(let i=0;i<x;i++){
+//     if(x == 2**i){
+//         k= i
+//     }
+//     // }else{
+//     //     return false
+//     // }
+//   }
+//   if(k){
+//     return true
+//   }
+//   return false
+// }
+
+// console.log(daraja(81));
+
+
+// var x = 2
+// while(x>=2){
+//   x /=2
+// }
+// console.log(x);
+
+
+
+function ofPowerOfTwo(x){
+    if(x<1){
+        return false
+    }
+    while(x>1){
+        if(x%2 !==0 ){
+            return false
+        }
+        x = x / 2
+    }
+
+    return true
+}
+console.log(ofPowerOfTwo(12));
